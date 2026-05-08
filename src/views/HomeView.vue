@@ -5,12 +5,12 @@ import { articles, categories } from '@/utils/articles.js'
 import ArticleCard from '@/components/ArticleCard.vue'
 
 useHead({
-  title: 'Olden Era Journal – Player Experiences & Insights for HoMM: Olden Era',
+  title: 'Scroll Tome – HoMM: Olden Era Player Journal',
   meta: [
     { name: 'description', content: 'A community space for Heroes of Might and Magic: Olden Era players to share experiences, discoveries, and insights — not just tips, but the stories behind the strategies.' },
-    { property: 'og:title', content: 'Olden Era Journal – Player Experiences & Insights' },
+    { property: 'og:title', content: 'Scroll Tome – HoMM: Olden Era Player Journal' },
     { property: 'og:description', content: 'A community space for Heroes of Might and Magic: Olden Era players to share experiences, discoveries, and insights.' },
-    { property: 'og:url', content: 'https://homm-olden-era.com/' },
+    { property: 'og:url', content: 'https://scrolltome.com/' },
   ],
 })
 
@@ -120,8 +120,8 @@ const featuredArticles = computed(() => articles.filter((a) => a.featured))
     </div>
   </section>
 
-  <!-- ── Contribute CTA ── -->
-  <section class="section-contribute">
+  <!-- ── Contribute CTA (hidden) ── -->
+  <!-- <section class="section-contribute">
     <div class="container">
       <div class="contribute-box">
         <span class="contribute-icon">✍️</span>
@@ -132,7 +132,7 @@ const featuredArticles = computed(() => articles.filter((a) => a.featured))
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <style scoped>

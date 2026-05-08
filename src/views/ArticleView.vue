@@ -26,12 +26,12 @@ watch(
 useHead(
   computed(() => ({
     title: article.value
-      ? `${article.value.title} | HoMM: Olden Era Guide`
-      : 'Guide Not Found | HoMM: Olden Era Guide',
+      ? `${article.value.title} | Scroll Tome`
+      : 'Guide Not Found | Scroll Tome',
     meta: article.value
       ? [
           { name: 'description', content: article.value.description },
-          { property: 'og:title', content: `${article.value.title} | HoMM: Olden Era Guide` },
+          { property: 'og:title', content: `${article.value.title} | Scroll Tome` },
           { property: 'og:description', content: article.value.description },
           { property: 'og:type', content: 'article' },
           { property: 'article:published_time', content: article.value.date },
@@ -39,7 +39,7 @@ useHead(
         ]
       : [],
     link: article.value
-      ? [{ rel: 'canonical', href: `https://homm-olden-era.com/guide/${article.value.slug}` }]
+      ? [{ rel: 'canonical', href: `https://scrolltome.com/guide/${article.value.slug}` }]
       : [],
   })),
 )

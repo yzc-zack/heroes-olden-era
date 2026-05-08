@@ -18,11 +18,7 @@ function closeMenu() {
     <div class="header-inner">
       <!-- Logo -->
       <RouterLink to="/" class="logo-link" @click="closeMenu">
-        <span class="logo-icon">⚔️</span>
-        <div class="logo-text">
-          <span class="logo-title">HoMM: Olden Era</span>
-          <span class="logo-subtitle">Player Journal</span>
-        </div>
+        <img src="/logo.png" alt="Scroll Tome – HoMM: Olden Era Journal" class="logo-img" />
       </RouterLink>
 
       <!-- Desktop nav -->
@@ -83,35 +79,20 @@ function closeMenu() {
 .logo-link {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
   text-decoration: none;
   flex-shrink: 0;
 }
 
-.logo-icon {
-  font-size: 1.6rem;
-  line-height: 1;
+.logo-img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  transition: opacity 0.2s;
 }
 
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
-}
-
-.logo-title {
-  font-family: 'Cinzel', serif;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #c9a227;
-  letter-spacing: 0.02em;
-}
-
-.logo-subtitle {
-  font-size: 0.65rem;
-  color: #a89880;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+.logo-link:hover .logo-img {
+  opacity: 0.85;
 }
 
 .desktop-nav {
@@ -210,8 +191,8 @@ function closeMenu() {
   .hamburger {
     display: flex;
   }
-  .logo-title {
-    font-size: 0.9rem;
+  .logo-img {
+    height: 36px;
   }
 }
 </style>

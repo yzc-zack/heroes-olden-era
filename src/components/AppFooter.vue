@@ -6,9 +6,9 @@ const year = new Date().getFullYear()
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <span class="footer-logo">⚔️ HoMM: Olden Era Guide</span>
+        <span class="footer-logo">⚔️ Scroll Tome</span>
         <p class="footer-desc">
-          Community-driven strategy guides for Heroes of Might and Magic: Olden Era.
+          A player community journal for Heroes of Might and Magic: Olden Era.
           Not affiliated with Ubisoft or Unfrozen Studio.
         </p>
       </div>
@@ -17,23 +17,21 @@ const year = new Date().getFullYear()
         <h3 class="footer-heading">Quick Links</h3>
         <ul>
           <li><RouterLink to="/">Home</RouterLink></li>
-          <li><a href="/#guides">All Guides</a></li>
+          <li><a href="/#guides">All Posts</a></li>
+          <li><RouterLink to="/privacy">Privacy Policy</RouterLink></li>
         </ul>
       </div>
 
       <div class="footer-links">
         <h3 class="footer-heading">Categories</h3>
         <ul>
-          <li><a href="/#guides">Beginner Guides</a></li>
-          <li><a href="/#guides">Combat</a></li>
-          <li><a href="/#guides">Economy</a></li>
-          <li><a href="/#guides">Heroes &amp; Units</a></li>
+          <li><a href="/#guides">Player Insights</a></li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>© {{ year }} HoMM: Olden Era Guide. All rights reserved.</p>
+      <p>© {{ year }} Scroll Tome. All rights reserved.</p>
       <p class="footer-disclaimer">
         Heroes of Might and Magic is a trademark of Ubisoft. This is a fan-made site.
       </p>
