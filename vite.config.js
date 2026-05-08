@@ -5,7 +5,10 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  base: "/docs/",
+  base: "/",
+  build: {
+    outDir: 'docs',
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
