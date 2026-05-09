@@ -38,6 +38,9 @@ function formatDate(dateStr) {
 
 <template>
   <RouterLink :to="`/guide/${article.slug}`" class="article-card" :class="{ 'article-card--featured': featured }">
+    <div v-if="article.cover" class="card-cover">
+      <img :src="article.cover" :alt="article.title" loading="lazy" />
+    </div>
     <div class="card-body">
       <div class="card-meta">
         <span class="category-badge" :style="categoryStyle(article.category)">
@@ -82,6 +85,25 @@ function formatDate(dateStr) {
 
 .article-card--featured:hover {
   border-color: rgba(201, 162, 39, 0.7);
+}
+
+.card-cover {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-bottom: 1px solid #1a2d4a;
+}
+
+.card-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.article-card:hover .card-cover img {
+  transform: scale(1.04);
 }
 
 .card-body {
@@ -137,6 +159,7 @@ function formatDate(dateStr) {
   flex-grow: 1;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }

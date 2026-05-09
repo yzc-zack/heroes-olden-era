@@ -6,6 +6,8 @@ category: "Player Insights"
 tags: ["haven", "beginner", "faction-guide", "early-game", "combat", "build-order"]
 featured: false
 order: 8
+cover: "/images/heroes-olden-era/03.jpg"
+gameHeader: "/images/heroes-olden-era/header.jpg"
 ---
 
 Quick note before we start: this is a buy-once game. No battle pass, no premium currency, no locked factions. Whatever faction you pick, you're getting the full thing.
@@ -13,6 +15,8 @@ Quick note before we start: this is a buy-once game. No battle pass, no premium 
 If you're new and not sure where to start — pick Haven. It's not flashy, but it's the most forgiving faction in the game. The units do what you expect them to do, the build order makes intuitive sense, and the early game doesn't punish you as hard for small mistakes.
 
 Here's what I'd tell someone sitting down with Haven for the first time.
+
+![Haven — the human faction town, built around order and steady growth](/images/heroes-olden-era/03.jpg)
 
 ---
 
@@ -52,6 +56,8 @@ Scale up gradually. Start with the camps right outside your town — the ones gu
 **Use your Cavalry to bait.** Slow enemies — anything with low initiative — will waste their retaliation swing on a Cavalry unit you deliberately moved into range. That means your Crossbowmen get another turn of free shots before anything attacks them.
 
 One last thing: turn off auto-battle. The AI makes bad decisions with Haven's toolkit specifically. Manual control isn't hard once you know the three units, and you'll lose far fewer troops.
+
+![Haven units in a field engagement — Paladins forward, ranged units working behind](/images/heroes-olden-era/07.jpg)
 
 ---
 

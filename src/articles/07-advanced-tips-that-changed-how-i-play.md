@@ -6,11 +6,15 @@ category: "Player Insights"
 tags: ["tips", "advanced", "heroes", "magic", "economy", "combat"]
 featured: false
 order: 7
+cover: "/images/heroes-olden-era/08.jpg"
+gameHeader: "/images/heroes-olden-era/header.jpg"
 ---
 
 A dozen hours in, I thought I had a decent handle on this game. Then I started losing maps I felt I should be winning, and I had to actually sit down and figure out why.
 
 Turns out there were a handful of things I was doing wrong — or just not doing at all — that made a bigger difference than any individual strategy choice. Here's what changed things for me.
+
+![Exploring a winter map — multiple heroes, multiple zones to cover](/images/heroes-olden-era/08.jpg)
 
 ---
 
@@ -40,6 +44,8 @@ You create it by holding Ctrl and left-clicking a unit to split off exactly one 
 - Keeps building Focus Points while your main stacks output freely
 
 A lone Thornshot Archer or a single Skeleton sitting in a doorway can completely change how a fight flows. Once you start doing this, you'll find yourself setting it up before almost every serious fight.
+
+![Spells mid-combat — the kind of moment a single unit squad makes possible](/images/heroes-olden-era/04.jpg)
 
 ---
 
@@ -76,6 +82,8 @@ Beyond gear: the map is divided into zones of escalating value, and the high-val
 The instinct to avoid them is understandable — I spent way too long carefully routing around heavily guarded choke points instead of just building up and walking through them. But that hesitation costs you. The snowball in this game comes from claiming territory, and the most territory-rich regions require you to commit to a fight you're not sure you'll win cleanly.
 
 Build the army. Gear the hero. Then go pick the fight.
+
+![A contested high-value zone — the fights worth having once you're ready](/images/heroes-olden-era/09.jpg)
 
 ---
 

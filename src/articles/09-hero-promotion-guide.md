@@ -6,6 +6,8 @@ category: "Player Insights"
 tags: ["hero", "promotion", "skills", "progression", "tips"]
 featured: false
 order: 9
+cover: "/images/heroes-olden-era/01.jpg"
+gameHeader: "/images/heroes-olden-era/header.jpg"
 ---
 
 A lot of players don't notice the promotion system until mid-game, and by then they've already made skill choices that lock them out of the path they wanted. Worth understanding early.
@@ -29,6 +31,8 @@ Your hero has a limited number of skill slots. You can't just learn every skill 
 This means every skill you pick up is a commitment. Take a skill that isn't part of any promotion path you care about, and you've spent a slot that could have been reserved for something that matters. Do it two or three times and suddenly the five skills you need won't all fit, even if you theoretically have the levels to rank them up.
 
 The constraint is the point. Promotions are meant to be something you build toward intentionally, not something that happens by accident.
+
+![Late-game combat — what a properly promoted hero's army looks like in action](/images/heroes-olden-era/01.jpg)
 
 ---
 

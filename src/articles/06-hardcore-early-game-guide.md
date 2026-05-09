@@ -6,6 +6,8 @@ category: "Player Insights"
 tags: ["early-game", "strategy", "nature-faction", "pvp", "magic", "tips"]
 featured: true
 order: 6
+cover: "/images/heroes-olden-era/02.jpg"
+gameHeader: "/images/heroes-olden-era/header.jpg"
 ---
 
 I've put enough hours into this game to feel the shift from "fumbling through the first week" to "knowing exactly what I'm doing wrong." This guide is everything I'd tell myself before my first serious playthrough — five areas where the game is deeper than it looks, and where most players (including past-me) leave a ton of value on the table.
@@ -26,6 +28,8 @@ Hire a second hero from the Tavern by Day 2 or 3 and assign roles permanently:
 The support hero's movement covers ground that the main hero would have backtracked to cover, effectively doubling your map coverage. On the first Sunday (week end), your main hero should have a full army from recruitment. Your support hero should have flagged 4–6 mines without spending a single unit.
 
 > **Week 1 economy goal:** Town Hall → City Hall construction started on Day 1. Mage Guild Level 1 by Day 3–4. All nearby mines flagged by the Sunday reset.
+
+![The adventure map — two heroes covering different zones simultaneously](/images/heroes-olden-era/02.jpg)
 
 ---
 
@@ -72,6 +76,8 @@ Strategic spells like Town Portal consume Star Points, not gold — but they sha
 
 Don't spread Law XP thin. Pick a lane and commit.
 
+![The Spellbook UI — spells organized by tier across multiple tabs](/images/heroes-olden-era/05.jpg)
+
 ---
 
 ## 4. Nature Faction Unit Upgrades: The Choices That Actually Matter
@@ -101,6 +107,8 @@ This unit reduces the initiative and action speed of enemies it touches. In figh
 
 The Blazing Phoenix has the highest initiative in the faction, a built-in self-preservation passive that can save it from lethal hits, and an active ability that performs far above its tier in PvP where one good use can swing the entire battle. The main alternative Phoenix form is situationally powerful but the Blazing version's forgiveness makes it the safer competitive choice.
 
+![Grove faction town — the Nature faction's home base](/images/heroes-olden-era/06.jpg)
+
 ---
 
 ## 5. Online PvP: It Plays Like an RTS Until It Doesn't
@@ -118,6 +126,8 @@ Coming from the singleplayer experience, multiplayer in Olden Era can feel disor
 3. **The Ban/Pick draft (BP) is not optional in ranked modes.** It works similarly to MOBA draft systems. If you're new to competitive play, prioritize banning the Nature faction's Tier 7 and any hero with very high base Logistics — these are the most tempo-defining early picks and the hardest to answer once established.
 
 4. **Don't ignore the late-entry compensation rule.** If your opponent breaks through before you, you receive a turn-order bonus in the following day's resolution. Players who understand this will sometimes deliberately delay a breach to bait the opponent into overextending, then use the compensation priority to hit back harder.
+
+![PvP head-to-head — two armies meeting on the battlefield](/images/heroes-olden-era/10.jpg)
 
 ---
 

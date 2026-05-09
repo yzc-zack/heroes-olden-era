@@ -73,6 +73,11 @@ function categoryColor(cat) {
       </div>
     </nav>
 
+    <!-- Game Header Banner -->
+    <div v-if="article.gameHeader" class="game-header-banner">
+      <img :src="article.gameHeader" :alt="article.title" />
+    </div>
+
     <div class="container article-layout">
       <!-- Article Main -->
       <article class="article-main" itemscope itemtype="https://schema.org/Article">
@@ -215,6 +220,22 @@ function categoryColor(cat) {
   padding: 0 1.25rem;
 }
 
+.game-header-banner {
+  width: 100%;
+  background: #080c18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #1a2d4a;
+}
+
+.game-header-banner img {
+  max-height: 90px;
+  width: auto;
+  object-fit: contain;
+}
+
 .article-layout {
   display: grid;
   grid-template-columns: 1fr 280px;
@@ -293,6 +314,26 @@ function categoryColor(cat) {
 
 .article-content {
   max-width: none;
+}
+
+.article-content :deep(img) {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 2rem auto;
+  border: 1px solid #1a2d4a;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+}
+
+.article-content :deep(img + em) {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #4b5563;
+  margin-top: -1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Prev/Next nav */

@@ -152,9 +152,8 @@ const featuredArticles = computed(() => articles.filter((a) => a.featured))
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 60% at 50% 120%, rgba(201,162,39,0.12) 0%, transparent 70%),
-    radial-gradient(ellipse 60% 50% at 20% 0%, rgba(58,110,168,0.1) 0%, transparent 60%),
-    linear-gradient(180deg, #080c18 0%, #0d1425 100%);
+    linear-gradient(180deg, rgba(8,12,24,0.55) 0%, rgba(8,12,24,0.85) 100%),
+    url('/images/heroes-olden-era/header.jpg') center / cover no-repeat;
 }
 
 .hero-content {
