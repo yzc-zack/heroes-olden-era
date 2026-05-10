@@ -39,7 +39,7 @@ useHead(
         ]
       : [],
     link: article.value
-      ? [{ rel: 'canonical', href: `https://homm-olden-era.com/guide/${article.value.slug}` }]
+      ? [{ rel: 'canonical', href: `https://scrolltome.com/guide/${article.value.slug}` }]
       : [],
   })),
 )

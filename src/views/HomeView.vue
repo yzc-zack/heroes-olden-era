@@ -10,7 +10,7 @@ useHead({
     { name: 'description', content: 'A community space for Heroes of Might and Magic: Olden Era players to share experiences, discoveries, and insights — not just tips, but the stories behind the strategies.' },
     { property: 'og:title', content: 'Olden Era Journal – Player Experiences & Insights' },
     { property: 'og:description', content: 'A community space for Heroes of Might and Magic: Olden Era players to share experiences, discoveries, and insights.' },
-    { property: 'og:url', content: 'https://homm-olden-era.com/' },
+    { property: 'og:url', content: 'https://scrolltome.com/' },
   ],
 })
 
