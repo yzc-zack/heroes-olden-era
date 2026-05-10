@@ -1,7 +1,7 @@
 ---
 title: "Heroes of Might and Magic: Olden Era | How Hero Promotion Works"
 description: "Hero promotion is one of the most planning-heavy systems in Olden Era. Here's how it works and why your skill choices early on matter more than you might think."
-date: "2025-05-15"
+date: "2026-05-05"
 category: "Player Insights"
 tags: ["hero", "promotion", "skills", "progression", "tips"]
 featured: false

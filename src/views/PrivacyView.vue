@@ -9,7 +9,7 @@ useHead({
   ],
 })
 
-const lastUpdated = 'May 8, 2025'
+const lastUpdated = 'May 8, 2026'
 </script>
 
 <template>

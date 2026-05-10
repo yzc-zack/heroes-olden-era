@@ -1,7 +1,7 @@
 ---
 title: "Heroes of Might and Magic: Olden Era | Haven Faction — A Beginner's Starting Guide"
 description: "Haven is the most forgiving faction in the game for new players. Here's how to open strong, build in the right order, and not throw your early game away."
-date: "2025-05-14"
+date: "2026-05-04"
 category: "Player Insights"
 tags: ["haven", "beginner", "faction-guide", "early-game", "combat", "build-order"]
 featured: false

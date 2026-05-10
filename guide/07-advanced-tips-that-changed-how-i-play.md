@@ -1,7 +1,7 @@
 ---
 title: "Heroes of Might and Magic: Olden Era | Advanced Tips That Actually Changed How I Play"
 description: "Five things I picked up after my first dozen hours — none of them obvious, all of them genuinely useful. From running multiple heroes to why Alchemy Dust is more important than gold."
-date: "2025-05-12"
+date: "2026-05-02"
 category: "Player Insights"
 tags: ["tips", "advanced", "heroes", "magic", "economy", "combat"]
 featured: false

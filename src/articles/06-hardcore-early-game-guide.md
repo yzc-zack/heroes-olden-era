@@ -1,7 +1,7 @@
 ---
 title: "Heroes of Might and Magic: Olden Era | 5 Things I Wish I Knew Before My First Real Run"
 description: "A player's honest breakdown of HoMM: Olden Era's deeper mechanics — from the dual-hero early game system to PvP timing traps and Nature faction unit upgrades. Hard-earned insights, not theory."
-date: "2025-05-10"
+date: "2026-05-10"
 category: "Player Insights"
 tags: ["early-game", "strategy", "nature-faction", "pvp", "magic", "tips"]
 featured: true

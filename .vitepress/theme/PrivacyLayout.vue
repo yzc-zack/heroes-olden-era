@@ -8,7 +8,7 @@ import { Content } from 'vitepress'
       <header class="privacy-header">
         <p class="privacy-breadcrumb"><a href="/">Home</a> › Privacy Policy</p>
         <h1 class="privacy-title">Privacy Policy</h1>
-        <p class="privacy-updated">Last updated: May 8, 2025</p>
+        <p class="privacy-updated">Last updated: May 8, 2026</p>
       </header>
       <div class="prose privacy-body">
         <Content />
