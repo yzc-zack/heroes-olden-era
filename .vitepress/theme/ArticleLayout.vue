@@ -81,6 +81,19 @@ const related = computed(() =>
         <div class="prose article-content" itemprop="articleBody">
           <Content />
         </div>
+
+        <nav v-if="related.length" class="related-articles" aria-label="Related articles">
+          <h2 class="related-heading">Related Guides</h2>
+          <ul class="related-grid">
+            <li v-for="rel in related" :key="rel.url">
+              <a :href="rel.url" class="related-card">
+                <span class="related-card-title">{{ rel.title }}</span>
+                <span class="related-card-desc">{{ rel.description }}</span>
+                <span class="related-card-cta">Read →</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </article>
 
       <!-- Sidebar -->
@@ -142,6 +155,15 @@ const related = computed(() =>
 
 .article-divider { border-top: 1px solid #1a2d4a; margin: 1.5rem 0 2rem; }
 .article-content { max-width: none; }
+
+.related-articles { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #1a2d4a; }
+.related-heading { font-family: 'Cinzel', serif; font-size: 1rem; font-weight: 700; color: #a89880; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 1rem; }
+.related-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.75rem; }
+.related-card { display: flex; flex-direction: column; gap: 0.35rem; padding: 1rem; background: #0d1425; border: 1px solid #1a2d4a; border-radius: 8px; text-decoration: none; transition: border-color 0.2s, background 0.2s; }
+.related-card:hover { border-color: rgba(201,162,39,0.4); background: #111e35; }
+.related-card-title { font-family: 'Cinzel', serif; font-size: 0.82rem; font-weight: 600; color: #e8dcc8; line-height: 1.4; }
+.related-card-desc { font-size: 0.75rem; color: #4b5563; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.related-card-cta { font-size: 0.75rem; color: #c9a227; font-weight: 600; margin-top: auto; }
 
 /* Sidebar */
 .article-sidebar { position: relative; }

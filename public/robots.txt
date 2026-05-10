@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://homm-olden-era.com/sitemap.xml
+Sitemap: https://scrolltome.com/sitemap.xml
